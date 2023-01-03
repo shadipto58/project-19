@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@700&display=swap');
+
+body{
+	background: #fff;
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.strict-header{
+	background: #f5f9f9;
+	padding: 30px 0;
+}
+
+.strict-menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.strict-menu ul li a{
+	color: #454444;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	padding: 0 20px;
+	text-transform: capitalize;
+}
+
+.strict-menu-icon{
+	display: none;
+}
+
+/* Banner */
+.strict-banner{
+	background: url('images/banner.png');
+	background-size: cover;
+	background-position: center;
+	padding: 120px 0 90px;
+}
+.strict-banner-text{
+	text-align: center;
+}
+.strict-banner-text h1{
+	color: #fff;
+	font-size: 120px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.strict-banner-text p{
+	color: #fff;
+	font-size: 20px;
+	border-top: 2px solid #15a4fa;
+	display: inline-block;
+	padding: 39px 15px 0;
+	margin-bottom: 65px
+}
+.strict-banner-text button{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	padding: 10px 30px;
+	transition: .3s;
+}
+.strict-banner-text button:hover{
+	background: #15a4fa;
+}
+.strict-banner-text a{
+	display: block;
+	margin-top: 175px;
+	color: #fff;
+}
+
+/* About */
+.strict-about{
+	background: #f6f9f9;
+	padding: 80px 0;
+}
+
+.strict-title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.strict-title h2{
+	font-size: 40px;
+	color: #2d3950;
+}
+.strict-about-text p{
+	color: #999999;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Service */
+
+.strict-service{
+	background: #fff;
+	padding: 80px 0;
+}
+.strict-service-content{
+	padding: 0 25px;
+}
+.strict-service-icon{
+	width: 70px;
+	height: 70px;
+	background: linear-gradient(90deg, #48baff 50%, #5fc3ff 50%);
+	margin: 0 auto 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.strict-service-icon i{
+	color: #fff;
+	font-size: 30px;
+}
+.strict-service-text{
+	text-align: center;
+}
+.strict-service-text h5{
+	color: #2d3950;
+	font-size: 22px;
+}
+.strict-service-text p{
+	color: #999999;
+	font-size: 15px;
+}
+
+/* Work */
+
+.strict-work{
+	background: #f6f9f9;
+	padding: 80px 0;
+}
+.strict-title p{
+	color: #909090;
+	font-size: 15px;
+}
+.strict-work-img{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+.strict-work-img img{
+	width: 100%;
+}
+.strict-work-hover{
+	background: rgba(21, 164, 250, 0.9);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+}
+.strict-work-hover ul{
+	display: flex;
+}
+.strict-work-hover ul li{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	margin: 0 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.strict-work-hover ul li i{
+	color: #fff;
+}
+
+.strict-work-img:hover .strict-work-hover{
+	top: 0;
+}
+/*last section*/
+/* Contact Area */
+
+.strict-contact{
+	background: url('images/7.png');
+	background-size: cover;
+	background-position: center;
+
+}
+
+.contact-overlay{
+	background: rgba(45, 57, 80, 0.9);
+	padding: 80px 0;
+}
+
+.strict-contact .strict-title h2{
+	color: #fff;
+}
+.user-data{
+	margin-bottom: 15px;
+}
+.user-data input, 
+.user-data textarea{
+	background: transparent;
+	width: 100%;
+	border: 1px solid #999999;
+	padding: 8px;
+	border-radius: 3px;
+}
+
+.form-foot{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form-foot-left{}
+.form-foot-left label{
+	color: #fff;
+	margin-left: 5px;
+}
+.form-foot-right{}
+.form-foot-right input{
+	background: transparent;
+	border: 1px solid #15a3f9;
+	color: #fff;
+	padding: 6px 30px;
+	transition: .3s;
+}
+.form-foot-right input:hover{
+	background: #15a3f9;
+}
+
+/* Footer */
+
+footer{
+	padding: 20px 0;
+	background: #f6f9f9;
+}
+.copyright p{
+	color: #999;
+	font-size: 15px;
+}
+
+.social-icons{
+
+}
+.social-icons ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.social-icons ul li{
+	width: 40px;
+	height: 40px;
+	background: #15a3f9;
+	margin: 0 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-icons ul li i{
+	color: #fff;
+}
+
+#45 57 80

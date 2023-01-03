@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+
+	.strict-menu{
+		display: none;
+	}
+	.strict-menu-icon{
+		display: block;
+		text-align: right;
+	}
+	.strict-menu-icon i{
+		font-size: 25px;
+	}
+
+}
+
+
+@media (max-width: 575px) {
+
+	.strict-banner-text h1{
+		font-size: 80px;
+	}
+
+}
